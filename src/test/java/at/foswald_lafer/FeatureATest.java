@@ -16,4 +16,14 @@ class FeatureATest {
         assertEquals(expected, actual);
 
     }
+
+    @Test
+    void add2() {
+
+        int expected = 9;
+        int actual = FeatureA.add(4, 5);
+
+        assertEquals(expected, actual);
+
+    }
 }
