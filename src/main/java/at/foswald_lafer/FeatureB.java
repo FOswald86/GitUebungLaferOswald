@@ -6,7 +6,7 @@ public class FeatureB {
         System.out.println(multiplier(2, 2));
     }
 
-    static int multiplier(int a, int b) {
+    public static int multiplier(int a, int b) {
         return a*b;
     }
 }
